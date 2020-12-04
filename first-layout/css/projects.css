@@ -1,0 +1,38 @@
+.p-projects {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.our-projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 578px;
+}
+
+.arena {
+  width: 350px;
+  height: 100%;
+}
+
+.red-line {
+  height: 6px;
+  width: 55px;
+  background-color: #f7654a;
+  margin: 45px 0 15px 0;
+}
+
+.p-arena {
+  font-weight: 500;
+  font-size: 24px;
+  color: #404149;
+  margin-bottom: 20px;
+}
+
+.p-arena-txt {
+  font-size: 16px;
+  font-weight: 400;
+}

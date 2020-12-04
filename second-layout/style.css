@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-top__line {
+  height: 44px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #969696;
+}
+
+.link-reg:hover {
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+
+.info-for__header {
+  padding-right: 31rem;
+  padding-left: 12px;
+}
+
+.header-nav__menu {
+  height: 80px;
+  width: 1440px;
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: 29rem;
+}
+
+.nav-menu {
+  display: flex;
+  color: #969696;
+  font-size: 14px;
+}
+
+.link {
+  height: 80px;
+  width: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link:hover {
+  background-color: #1f1f1f;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.box-cart {
+  padding-right: 20px;
+  padding-left: 37px;
+}
+
+.header-content {
+  height: 810px;
+  background-image: url("./img/Rectangle.png");
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  width: 1440px;
+}
+
+.text-header__content {
+  position: relative;
+  top: 15rem;
+  text-align: center;
+  width: 730px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.border {
+  border: solid 2px white;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+
+.in-the__border {
+  border: solid 4px white;
+  width: 320px;
+  height: 320px;
+  position: relative;
+  top: 10rem;
+  left: 35rem;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.container-first__content {
+  display: flex;
+  width: 1440px;
+}
+
+.seasons {
+  height: 630px;
+  width: 50%;
+  background-color: #000000;
+}
+
+.text-seasons {
+  height: 149px;
+  width: 720px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.num {
+  font-size: 24px;
+  padding-left: 9px;
+}
+
+.border-in__seasons {
+  border: solid 1px white;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.second-container__seasons {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  width: 720px;
+  align-items: center;
+}
+
+.box-with__clock {
+  height: 237px;
+  width: 212px;
+  background: #191b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 193px;
+  height: 188px;
+}
+
+.stl {
+  color: #ffffff;
+}
+.brand {
+  margin-left: -3rem;
+}
+
+.catalog {
+  height: 630px;
+  width: 720px;
+  background-repeat: no-repeat;
+  background-image: url("./img/people.png");
+}
+
+.clear-box {
+  height: 405px;
+}
+
+.new-collection {
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-cl {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 77px;
+}
+
+.border-collection {
+  border: solid 1px white;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.button-collection {
+  height: 120px;
+  width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1 {
+  height: 54px;
+  width: 135px;
+  background-color: #11110f00;
+  border-color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: #97977796;
+}
+
+.container-second__content {
+  display: flex;
+  width: 1440px;
+}
+
+.just-image {
+  left: 0px;
+  top: 1664px;
+  border-radius: 0px;
+}
+
+.img-clear {
+  width: 652px;
+  height: 100%;
+}
+
+.just-text__btn {
+  height: 600px;
+  width: 1040px;
+  background-color: #000000;
+}
+
+.titles {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-top: 5rem;
+  text-align: center;
+  line-height: 7rem;
+}
+
+.text-for__collection {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.button-cont {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-2 {
+  height: 55px;
+  width: 238px;
+  text-transform: uppercase;
+  background-color: #ffffff00;
+  color: white;
+  border-color: white;
+}
+
+.btn-2:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.header-third__content {
+  height: 200px;
+  width: 1440px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.clear-mini__box {
+  height: 80px;
+  width: 1440px;
+  background-color: #000000;
+}
+
+.body-third__content {
+  height: 777px;
+  width: 1440px;
+  background-color: #000000;
+}
+
+.double-clock__line {
+  height: 355px;
+  width: 984px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.clocks-third__content {
+  display: flex;
+  justify-content: space-around;
+  line-height: 25px;
+  width: 1027px;
+  margin: 0 auto;
+}
+
+.prgpf {
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.margin-last__el {
+  margin-right: 33px;
+}
+
+.marg {
+  text-align: center;
+  margin-right: 32px;
+  margin-top: 25px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.space {
+  background-color: #0f0f0f;
+  height: 362px;
+  width: 1440px;
+}
+
+.h4-for__space {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+
+.imgs-our__brand {
+  height: 94px;
+}
+
+.our-brand {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  height: 161px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.pustoi-container {
+  height: 80px;
+}
+
+.container-last__content {
+  height: 400px;
+  width: 1440px;
+  background-image: url("./img/Rectangle15.png");
+}
+
+.header-last__content {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+  width: 1003px;
+  margin: 0 auto;
+}
+
+.last-content {
+  display: flex;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.left-text {
+  width: 404px;
+  font-size: 14px;
+  margin-left: 7rem;
+  color: #ffffff;
+}
+
+.box-with__buttons {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 3rem;
+}
+
+.inp-and__btn {
+  width: 451px;
+  margin-left: 27px;
+}
+
+.bracelet-button {
+  width: 98px;
+  height: 41px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.jewelry-button {
+  width: 164px;
+  height: 41px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.bottom-buttons {
+  margin-top: 10px;
+}
+
+.same {
+  width: 70px;
+  height: 41px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.all-btn {
+  margin-right: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.all-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  height: 44px;
+}
+
+.text-for__inp-btn {
+  color: #ffffff;
+  font-size: 14px;
+  width: 333px;
+  height: 50px;
+  border: 0;
+}
+
+.inp-for__last {
+  width: 210px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  border: 0;
+}
+
+.inp-for__last::placeholder {
+  color: rgba(39, 38, 38, 0.856);
+}
+
+.btn-for__last {
+  width: 119px;
+  height: 41px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-for__last:hover {
+  background-color: #ffffff;
+  color: #000000;
+  height: 44px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 1440px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.texts-footer {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer-1text {
+  margin-right: 551px;
+}
+
+.links:hover {
+  border-bottom: 1px solid #ffffff;
+}

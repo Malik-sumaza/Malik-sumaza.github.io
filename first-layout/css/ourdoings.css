@@ -1,0 +1,57 @@
+.h2-cons {
+  padding: 150px 0 66px 0;
+  text-align: center;
+  font-size: 36px;
+  line-height: 53, 35 px;
+}
+
+.buildings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.building-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 350px;
+  height: 250px;
+  background-color: #f7f7f7;
+}
+.office-buildings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 172px;
+  height: 132px;
+}
+h4 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 31, 12px;
+}
+.two {
+  margin-top: 30px;
+}
+
+.buildings-images {
+  width: 100%;
+}
+
+.img-line__size {
+  height: 280px;
+  width: 360px;
+}
+
+.image-line {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+

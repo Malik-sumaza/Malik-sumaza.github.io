@@ -1,0 +1,23 @@
+.first-line__contant {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.img-text__contant {
+  box-shadow: 0 8px 15px rgb(0 0 0);
+  text-align: center;
+  padding-top: 4px;
+}
+
+.img-for__contant-1 {
+  height: 300px;
+}
+
+.p-contant__1 {
+  width: 300px;
+  font-size: 14px;
+  font-family: fantasy;
+  color: #7e7373;
+}

@@ -1,0 +1,26 @@
+.switch-nav {
+  background-color: rgb(46 41 41);
+  color: white;
+  box-shadow: 0 0 10px rgb(239 235 235);
+}
+
+.switch-btn {
+  background-color: #d6d6d6;
+  color: #323030;
+}
+
+.back-ground__container {
+  background-color: black;
+}
+
+.black-tema {
+  text-align: center;
+  box-shadow: 0 7px 10px rgb(239 235 235);
+  color: white;
+}
+
+/* .switch-footer {
+  background-color: rgb(46 41 41);
+  box-shadow: 0 7px 10px rgb(239 235 235);
+  color: white;
+} */

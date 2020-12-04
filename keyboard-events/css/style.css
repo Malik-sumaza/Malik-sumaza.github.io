@@ -1,0 +1,42 @@
+body {
+  background-image: url(https://images.photowall.com/products/46220/piano-keyboard-1.jpg?h=699&q=85);
+  background-size: cover;
+}
+.electro-piano {
+  display: flex;
+  align-items: center;
+  width: 950px;
+  height: 600px;
+  margin: 0 auto;
+}
+.electro-piano div {
+  width: 90px;
+  height: 143px;
+  border: 1px solid #d7d2c8;
+  margin: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: sandybrown;
+}
+#do,
+#mi,
+#sol,
+#si {
+  background-color: #fbfbfb;
+}
+
+#re,
+#fa,
+#lya {
+  background-color: rgb(69 63 63);
+}
+
+.key {
+  transition: ease 0.3s;
+}
+
+.playing {
+  transform: scale(0.9);
+}

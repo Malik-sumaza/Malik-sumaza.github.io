@@ -1,0 +1,45 @@
+.smart-projects {
+  margin-top: 60px;
+  padding-top: 35px;
+  width: 100%;
+  height: 181px;
+  background-color: #f7654a;
+}
+
+.content-decisions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.smart-decisions {
+  height: 121px;
+  width: 100%;
+}
+.p-smart-projects {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71, 14px;
+  color: white;
+}
+.p-strong-decisions {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.post {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  height: 49px;
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  padding-top: 14px;
+}
+.img-post {
+  margin-top: 3px;
+  padding-right: 15px;
+}
